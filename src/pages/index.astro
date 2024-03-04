@@ -1,18 +1,13 @@
 ---
 import Layout from '../components/Layout.astro';
 
-import ArticleBasic from '../components/article/basic.astro';
+import Divider from '../components/Divider.astro'; 
+import ArticleBasic from '../components/article/Basic.astro';
 ---
 
 <Layout title="Blazed One News">
 	<main>
+		<Divider title="Breaking News" />
 		<ArticleBasic title="Big amazing thing headline news!" />
-		<span class="flex items-center">
-			<span class="h-px flex-1 bg-black"></span>
-			<span class="shrink-0 px-6">
-				Tech News
-			</span>
-			<span class="h-px flex-1 bg-black"></span>
-		  </span>
 	</main>
 </Layout>
